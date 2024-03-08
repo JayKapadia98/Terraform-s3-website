@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jay Kapadia - Portfolio</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+            color: #333;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            animation: slideDown 1s ease-in-out;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 5px;
+        }
+
+        header p {
+            font-size: 1rem;
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+        }
+
+        .summary {
+            background-color: #f9f9f9;
+            padding: 15px;
+            border-radius: 5px;
+        }
+
+        .education, .certifications, .experience, .skills {
+            margin-top: 20px;
+        }
+
+        .experience .job {
+            margin-top: 20px;
+            border-top: 1px solid #ddd;
+            padding-top: 20px;
+        }
+
+        .job h3 {
+            margin-bottom: 5px;
+            color: #444;
+        }
+
+        .job p {
+            margin-top: 5px;
+        }
+
+        .job ul {
+            padding-left: 20px;
+        }
+
+        /* Animations */
+        @keyframes slideDown {
+            from {
+                transform: translateY(-50px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        /* Media Queries */
+        @media (max-width: 768px) {
+            .container {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 style="color: #ffcc00;">Jay Kapadia</h1>
+        <p style="color: #ccc;">+91 8237943079 | joekpd@gmail.com</p>
+    </header>
+
+    <div class="container">
+        <section class="summary">
+            <h2 style="color: #333;">SUMMARY</h2>
+            <p>An ambitious learner, highly willing to perform decision-making and execute enduring enhancements to clients' strategy, business processes, and long-term profitability by providing them resilient yet cost-efficient AWS Infrastructures and reducing IT operations spend through automation by using Cloud.</p>
+        </section>
+
+        <section class="education">
+            <h2 style="color: #333;">EDUCATION</h2>
+            <p>Pune University<br>Aug 2016 - Apr 2020<br>Bachelor of Engineering - Information Technology<br>7.07 CGPA</p>
+        </section>
+
+        <section class="certifications">
+            <h2 style="color: #333;">CERTIFICATIONS</h2>
+            <ul>
+                <li>AWS Solutions Architect Associate - Amazon Web Services, Oct 2021</li>
+                <li>Terraform Associate - HashiCorp, May 2022</li>
+                <li>AWS Cloud Practitioner - Amazon Web Services, Jul 2021</li>
+                <li>Python Programmer - Python Institute, March 2022</li>
+            </ul>
+        </section>
+
+        <section class="experience">
+            <h2 style="color: #333;">PROFESSIONAL EXPERIENCE</h2>
+            <div class="job">
+                <h3>ElasticRun</h3>
+                <p>Nov ‘22 – Present<br>Associate Engineer</p>
+                <ul>
+                    <li>Automations with Ansible</li>
+                    <li>Azure</li>
+                    <li>Linux Administration</li>
+                    <li>Deployments</li>
+                    <li>Monitoring and Logging</li>
+                    <li>DataBase Administration</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <h3>Blazeclan Technologies</h3>
+                <p>Nov ‘20 – Nov ‘22<br>Cloud Engineer</p>
+                <ul>
+                    <li>Working with DynamoDB and S3</li>
+                    <li>Using Lambda and Pandas</li>
+                    <li>Provisioning AWS resources with IaC tools</li>
+                    <li>Deploying scripts on Docker Container using ECS</li>
+                    <li>Monitoring using BI Tools</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="skills">
+            <h2 style="color: #333;">SKILLS</h2>
+            <ul>
+                <li>Experience with Azure Services</li>
+                <li>Experience with AWS services</li>
+                <li>Knowledge on MicroServices and Container Orchestration</li>
+                <li>Experience with Infrastructure-as-Code and Configuration Management Tools</li>
+                <li>Experience with Linux Administration and Shell Scripting</li>
+                <li>Knowledge of Nginx, CDN, Proxy</li>
+                <li>Knowledge on distributed version control systems</li>
+                <li>Articulation ability, good communication and interpersonal skills</li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
