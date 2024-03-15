@@ -1,2 +1,2 @@
-# Terraform-s3-website
+# Create and Host a Static Website on S3 using Terraform
 
